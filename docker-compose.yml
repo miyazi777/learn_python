@@ -1,0 +1,9 @@
+version: '2'
+services:
+    app:
+        container_name: python_self_study1
+        image: python:latest
+        stdin_open: true
+        tty: true
+        volumes:
+            - .:/work
