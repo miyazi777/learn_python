@@ -27,3 +27,4 @@ print(dic.values()) # [120, 200, 300]
 
 # get items
 print(dic.items())  # [('item1':120), ('item2':200), ('item3':300)]
+
